@@ -1,0 +1,19 @@
+.btn{
+    width: 100%;
+    cursor: pointer;
+    color: white;
+    background-color: darkblue;
+    border-radius: 5px;
+    padding: 10px;
+    transition: transform 100ms ease-in-out;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+}
+
+.btn:disabled{
+    background-color: #888;
+    cursor: not-allowed;
+    transform: none;
+}
